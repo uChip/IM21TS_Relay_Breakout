@@ -1,6 +1,7 @@
 ## IM21TS Relay Breakout PCB
 
-Breakout board for TE Connectivity's IM21TS relay.  Converts to 0.1" breadboard format.
+Eagle CAD PCB design for a breakout board.
+Converts TE Connectivity's IM21TS relay to 0.1" breadboard format.
 
 ### Component Description
 
@@ -15,4 +16,11 @@ Digi-Key part #PB1167-ND
 
 Pinout on PCB or see datasheet.
 
-Distribution License: Public Domain
+### File Formats
+
+Files are in "CadSoft EAGLE PCB Design Software" .brd and .sch formats.
+A free version of the software can be downloaded from www.cadsoftusa.com.
+
+### Distribution License
+
+PCB design is Public Domain.
