@@ -1,30 +1,26 @@
-## Adafruit Eagle Library
+## IM21TS Relay Breakout PCB
 
-Now in Eagle 6 format!
+Eagle CAD PCB design for a breakout board.
+Converts TE Connectivity's IM21TS relay to 0.1" breadboard format.
 
-### Don't click on the files! 
+### Component Description
 
-[Click here](https://github.com/adafruit/Adafruit-Eagle-Library/zipball/master) 
-to download this as a zip file.
+IM21TS Relay:
+    Non-Latching, DPDT
+    Coil Voltage - 3VDC
+    Coil Current - 16.7mA
+    Switch Voltage - 250VAC
+    Contact Rating - 2A
 
-### Installation
+Digi-Key part #PB1167-ND
 
-1. Open Eagle and select the `Control Panel` window.
-2. Choose `Options` and from the drop down that appears, `Directories`.
-3. Change the Libraries line from: `$EAGLEDIR/lbr` to something like:
+Pinout on PCB or see datasheet.
 
-    > $EAGLEDIR/lbr:$HOME/external_lbrs (for OS X)
+### File Formats
 
-    > $EAGLEDIR\lbr;$HOME\external_lbrs (for Windows)
+Files are in "CadSoft EAGLE PCB Design Software" .brd and .sch formats.
+A free version of the software can be downloaded from www.cadsoftusa.com.
 
-4. Click `OK` to save your changes.
-5. Eagle will prompt to create the directory if it does not already exist. Note 
-the location and choose `Yes` to create the directory.
+### Distribution License
 
-    > On OS X, `$HOME/external_lbrs` changes to: /Users/mosfet/external_lbrs/
-    
-    > On Windows, `$HOME\external_lbrs` changes to: C:\Users\Mosfet\Documents\external_lbrs
-
-6. Find and open the `external_lbrs` folder. Unzip and drag `adafruit.lbr` into the 
-   new `external_lbrs` folder.
-7. Restart Eagle. The library should be now be usable. 
+PCB design is Public Domain.
